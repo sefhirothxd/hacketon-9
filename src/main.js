@@ -234,3 +234,55 @@ function ejercio12() {
 
 
 }
+
+function ejercio13() {
+    let a = parseInt(prompt("Ingrese la cantidad de notas que ingresara para determinar cuantos aprobado y desaprobado hay en total :"));
+    let cantAlumnos = [a];
+    let aprobado = 0;
+    let desaprobados = 0;
+
+    for (let i = 0; i < a; i++) {
+        cantAlumnos[i] = prompt(`Nota numero ${i+1}`);
+    }
+    for (let j = 0; j < a; j++) {
+        if (cantAlumnos[j] > 11) {
+            aprobado++;
+        } else {
+            desaprobados++;
+        }
+    }
+
+    alert(`El numero de aprobados son : ${aprobado} \nEl numero de desaprobados son: ${desaprobados}`);
+}
+
+function ejercio14() {
+    let a = parseInt(prompt("Ingrese la cantidad de focos que contiene la caja para determinar los colores que hay :"));
+    let focos = ['verde', 'blanco', 'rojo'];
+    let rojo = 0;
+    let blanco = 0;
+    let verde = 0;
+
+    // let aleatorio = Math.floor(Math.random() * 3);
+
+    for (let i = 0; index < a; i++) {
+        if (focos[Math.floor(Math.random() * 3)] === "verde") {
+            verde++;
+        } else if (focos[Math.floor(Math.random() * 3)] === "rojo") {
+            rojo++;
+        } else {
+            blanco++;
+        }
+    }
+
+    alert(`Numero de focos de color verde: ${verde} \nNumero de focos de color rojo: ${rojo}\n Numero de focos de color blanco: ${blanco}`);
+}
+
+function ejercio15() {
+    let a = parseInt(prompt("Ingrese la edad del votante para determinar si votara o no :"));
+
+    if (a >= 18) {
+        alert(`SI Puede VOTAR ya que cuenta con ${a} años de Edad`);
+    } else {
+        alert(`NO Puede VOTAR ya que cuenta con ${a} años de Edad`);
+    }
+}

@@ -330,11 +330,62 @@ function ejercio12() {
   var salario = 1500;
   alert("Se listara el incremento del sueldo en los proximos 6 a\xF1os (1500 sueldo base - 10% por a\xF1o).");
 
-  for (var index = 0; index < 6; index++) {
+  for (var _index = 0; _index < 6; _index++) {
     var acumulador = salario * 0.10;
     var nuevoSalario = salario + acumulador;
     salario = nuevoSalario;
-    alert("En el a\xF1o ".concat(index + 1, " tien un salario de ").concat(salario, " ya que tiene un aumento del 10%"));
+    alert("En el a\xF1o ".concat(_index + 1, " tien un salario de ").concat(salario, " ya que tiene un aumento del 10%"));
+  }
+}
+
+function ejercio13() {
+  var a = parseInt(prompt("Ingrese la cantidad de notas que ingresara para determinar cuantos aprobado y desaprobado hay en total :"));
+  var cantAlumnos = [a];
+  var aprobado = 0;
+  var desaprobados = 0;
+
+  for (var i = 0; i < a; i++) {
+    cantAlumnos[i] = prompt("Nota numero ".concat(i + 1));
+  }
+
+  for (var j = 0; j < a; j++) {
+    if (cantAlumnos[j] > 11) {
+      aprobado++;
+    } else {
+      desaprobados++;
+    }
+  }
+
+  alert("El numero de aprobados son : ".concat(aprobado, " \nEl numero de desaprobados son: ").concat(desaprobados));
+}
+
+function ejercio14() {
+  var a = parseInt(prompt("Ingrese la cantidad de focos que contiene la caja para determinar los colores que hay :"));
+  var focos = ['verde', 'blanco', 'rojo'];
+  var rojo = 0;
+  var blanco = 0;
+  var verde = 0; // let aleatorio = Math.floor(Math.random() * 3);
+
+  for (var i = 0; index < a; i++) {
+    if (focos[Math.floor(Math.random() * 3)] === "verde") {
+      verde++;
+    } else if (focos[Math.floor(Math.random() * 3)] === "rojo") {
+      rojo++;
+    } else {
+      blanco++;
+    }
+  }
+
+  alert("Numero de focos de color verde: ".concat(verde, " \nNumero de focos de color rojo: ").concat(rojo, "\n Numero de focos de color blanco: ").concat(blanco));
+}
+
+function ejercio15() {
+  var a = parseInt(prompt("Ingrese la edad del votante para determinar si votara o no :"));
+
+  if (a >= 18) {
+    alert("SI Puede VOTAR ya que cuenta con ".concat(a, " a\xF1os de Edad"));
+  } else {
+    alert("NO Puede VOTAR ya que cuenta con ".concat(a, " a\xF1os de Edad"));
   }
 }
 },{}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

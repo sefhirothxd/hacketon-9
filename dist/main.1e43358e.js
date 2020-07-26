@@ -118,7 +118,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"src/main.js":[function(require,module,exports) {
-var ops = prompt("Escriba la opcion que desea realizar del 1 al 15: \n" + "1) suma de dos elementos. \n" + "2) Calcular el promedio de 2 examenes. \n" + "3) Calcular Area de un rectangulo. \n" + "4) Calcular Area de un triangulo. \n" + "5) Calcular Area de un circunferencia. \n" + "6) Determinar el salario semanal. \n" + "7) Convertir pulgadas a metros. \n" + "8) Convertir soles a dolares. \n" + "9) convertir año de nacimiento a edad. \n" + "10) Determinar el menor de los trabajadores ingresados. \n" + "11) bono por antigudad. \n" + "12) calcular el salario 1500 en los proximos  6 años. \n" + "13) Calcular el promedio de 2 examenes. \n" + "14) Calcular el promedio de 2 examenes. \n" + "15) Calcular el promedio de 2 examenes.\n");
+var ops = prompt("Escriba la opcion que desea realizar del 1 al 15: \n1) suma de dos elementos. \n2) Calcular el promedio de 2 examenes. \n3) Calcular Area de un rectangulo. \n4) Calcular Area de un triangulo. \n5) Calcular Area de un circunferencia. \n6) Determinar el salario semanal. \n7) Convertir pulgadas a metros. \n8) Convertir soles a dolares. \n9) convertir a\xF1o de nacimiento a edad. \n10) Determinar el menor de los trabajadores ingresados. \n11) bono por antigudad. \n12) calcular el salario 1500 en los proximos  6 a\xF1os. \n13) Calcular el promedio de 2 examenes. \n14) Calcular el promedio de 2 examenes. \n15) Calcular el promedio de 2 examenes.\n");
 
 switch (parseInt(ops)) {
   case 1:

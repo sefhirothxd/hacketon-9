@@ -1,16 +1,23 @@
 {
-    "name": "hacketon",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sefhirothxd/hacketon-9.git"
-    },
-    "keywords": [],
-    "author": "Bryan Vera <bveracachay@gmail.com>",
-    "license": "MIT"
+  "name": "hacketon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefhirothxd/hacketon-9.git"
+  },
+  "keywords": [],
+  "author": "Bryan Vera <bveracachay@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sefhirothxd/hacketon-9/issues"
+  },
+  "homepage": "https://github.com/sefhirothxd/hacketon-9#readme",
+  "dependencies": {
+    "uglify-js": "^3.10.0"
+  }
 }

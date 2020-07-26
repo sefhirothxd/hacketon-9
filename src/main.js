@@ -1,20 +1,20 @@
-let ops = prompt("Escriba la opcion que desea realizar del 1 al 15: \n" +
-    "1) suma de dos elementos. \n" +
-    "2) Calcular el promedio de 2 examenes. \n" +
-    "3) Calcular Area de un rectangulo. \n" +
-    "4) Calcular Area de un triangulo. \n" +
-    "5) Calcular Area de un circunferencia. \n" +
-    "6) Determinar el salario semanal. \n" +
-    "7) Convertir pulgadas a metros. \n" +
-    "8) Convertir soles a dolares. \n" +
-    "9) convertir año de nacimiento a edad. \n" +
-    "10) Determinar el menor de los trabajadores ingresados. \n" +
-    "11) bono por antigudad. \n" +
-    "12) calcular el salario 1500 en los proximos  6 años. \n" +
-    "13) Calcular el promedio de 2 examenes. \n" +
-    "14) Calcular el promedio de 2 examenes. \n" +
-    "15) Calcular el promedio de 2 examenes.\n"
-);
+let ops = prompt(`Escriba la opcion que desea realizar del 1 al 15: 
+1) suma de dos elementos. 
+2) Calcular el promedio de 2 examenes. 
+3) Calcular Area de un rectangulo. 
+4) Calcular Area de un triangulo. 
+5) Calcular Area de un circunferencia. 
+6) Determinar el salario semanal. 
+7) Convertir pulgadas a metros. 
+8) Convertir soles a dolares. 
+9) convertir año de nacimiento a edad. 
+10) Determinar el menor de los trabajadores ingresados. 
+11) bono por antigudad. 
+12) calcular el salario 1500 en los proximos  6 años. 
+13) Calcular el promedio de 2 examenes. 
+14) Calcular el promedio de 2 examenes. 
+15) Calcular el promedio de 2 examenes.
+`);
 
 switch (parseInt(ops)) {
     case 1:
@@ -66,12 +66,6 @@ switch (parseInt(ops)) {
         alert("Elija la opcion correcta: 1 - 15 ")
         break;
 }
-
-
-
-
-
-
 
 /*Funciones */
 

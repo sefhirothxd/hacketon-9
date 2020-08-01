@@ -155,6 +155,7 @@ function trabajador(nombre, edad) {
     this.edad = edad;
 }
 
+
 function ejercio10() {
     trabajadores = [];
     let msg = alert("A continuacion ingrese los 3 trabajadores que desea saber el menor");
@@ -182,6 +183,8 @@ function ejercio10() {
         // // alert(` El trajador tiene ${resultado} años`);
     }
 }
+
+
 
 function ejercio11() {
     let a = prompt("A continuacion ingrese la cantidad de años trabajados para obtener el bono");
@@ -223,9 +226,8 @@ function ejercio12() {
         let acumulador = salario * 0.10;
         let nuevoSalario = salario + acumulador;
         salario = nuevoSalario;
-        alert(`En el año ${index+1} tien un salario de ${salario} ya que tiene un aumento del 10%`);
+        alert(`En el año ${index+1} tien un salario de ${salario} ya que tiene un aumento del 10% `);
     }
-
 
 }
 
@@ -258,7 +260,7 @@ function ejercio14() {
 
     // let aleatorio = Math.floor(Math.random() * 3);
 
-    for (let i = 0; index < a; i++) {
+    for (let i = 0; i < a; i++) {
         if (focos[Math.floor(Math.random() * 3)] === "verde") {
             verde++;
         } else if (focos[Math.floor(Math.random() * 3)] === "rojo") {
